@@ -1,6 +1,9 @@
-# Veraz V0.1 By Milad Fadavvi [[fadavvi\\at//gma!l\\dot//com]]
-===============================================================
-Veraz is a file and folder finder based on URL. Some kind of file/folder bruteforcer.
+# Veraz V0.1
+
+=============================
+
+Some kind of file/folder brute-forcer.
+
 ---------
 
 You can you Veraz to find files in a website -e [doc,pdf,php,...] or to find folders
@@ -46,3 +49,9 @@ Examples:
    
    Read filenames from /r/f_names and add .doc to them and will test on http://x.a/ with provided 
    cookie & user-agent strings.
+   
+   
+   
+   ==============================================================
+   
+   By Milad Fadavvi 
