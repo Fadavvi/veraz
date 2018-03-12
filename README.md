@@ -3,13 +3,14 @@ Some kind of file/folder brute-forcer.
 
 ---------
 
-You can you Veraz to find files in a website -e [doc,pdf,php,...] or to find folders
+You can use Veraz to find files in a website -e [doc,pdf,php,...] or to find folders
 use random string to find or use a file with path/file names.
-You can add cookie and user-agent to request and use delay to WAF protected sites.
+You can add cookie and user-agent to request and use delay for WAF protected sites.
 
 Usage: veraz -u http://xyz.abc/ <options>
 
 Options:
+
 -o , --out <file add>                           Save results in provided location.(optional)
 
 -f , --file <file add>                          Format of file for searching.(optinal)
@@ -30,7 +31,7 @@ Options:
 
 -h , --help                                     Print this message.
 
--u --url <web address>                          Base URL for searching.(recommanded)
+-u , --url <web address>                          Base URL for searching.(recommanded)
 
 
 Examples:
@@ -47,8 +48,7 @@ Examples:
    Read filenames from /r/f_names and add .doc to them and will test on http://x.a/ with provided 
    cookie & user-agent strings.
    
-   
-   
+      
    -----
    
    By Milad Fadavvi 
